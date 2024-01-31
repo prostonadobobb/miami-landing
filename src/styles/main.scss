@@ -421,6 +421,7 @@ img {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    outline: none;
     color: #292929;
     padding: 14px 16px;
     margin-bottom: 16px;
@@ -460,7 +461,12 @@ img {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
+
+  .menu {
+    overflow-y: auto;
+    max-height: 100vh; 
+  }
 
   .header {
     background-position: 20%;
