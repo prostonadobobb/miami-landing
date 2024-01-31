@@ -462,10 +462,9 @@ img {
   }
 }
 @media (max-width: 768px) and (orientation: landscape) {
-
   .menu {
     overflow-y: auto;
-    max-height: 100vh; 
+    max-height: 100vh;
   }
 
   .header {
